@@ -13,7 +13,7 @@ export default function Home() {
   // }
 
   return (
-    <section className="w-full flex justify-center flex-col">
+    <section className="w-full flex justify-center flex-col mt-20">
       <h1 className="head_text text-center">
         Discover & Share
         <br className="max-md:hidden" />
