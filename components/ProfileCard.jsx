@@ -1,9 +1,9 @@
-"use client";
+'use client'
 
 import Image from "next/image";
 
-const ProfileCard = ({ user }) => {
-  console.log(user);
+const ProfileCard = ({user}) => {
+  console.log(user)
   return (
     <section className="prompt_card">
       <div className="flex-1 flex justify-start items-center gap-3 cursor-pointer">
@@ -24,6 +24,6 @@ const ProfileCard = ({ user }) => {
       </div>
     </section>
   );
-};
+}
 
-export default ProfileCard;
+export default ProfileCard
